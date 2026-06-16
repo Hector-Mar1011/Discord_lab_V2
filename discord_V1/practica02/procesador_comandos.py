@@ -21,7 +21,7 @@ def calcular_uptime(hora_inicio):
     """
     ahora = datetime.datetime.now()
     diferencia = ahora - hora_inicio
-    segundos = int(diferencia.tota+l_seconds())
+    segundos = 0
     return f"Tiempo de actividad: {diferencia}"
 
 def mostrar_ayuda():
