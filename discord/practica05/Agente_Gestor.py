@@ -2,7 +2,7 @@ import discord
 import os
 import re
 from dotenv import load_dotenv
-from practica02.gestor_comandos import analizar_comando,buscar_en_diccionario, validar_variable
+from practica01.gestor_comandos import analizar_comando,buscar_en_diccionario, validar_variable
 
 def mostrar_bienvenida():
     """Retorna la lista de comandos disponibles."""
