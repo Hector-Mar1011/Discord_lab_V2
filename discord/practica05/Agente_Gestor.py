@@ -16,7 +16,7 @@ def mostrar_bienvenida():
 def main(entrada):
     
         PREFIJO = "!"
-        
+    
         if not entrada.startswith(PREFIJO):
             if entrada: print("Recuerda usar '!' para comandos.")
             
